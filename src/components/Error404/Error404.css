@@ -1,0 +1,30 @@
+/* Centrar todo el contenido en la pantalla */
+.error div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f8f9fa; /* Fondo claro opcional */
+}
+
+/* Estilo para el título */
+.error h2 {
+  font-size: 200px;
+  color: #991010d3;
+  margin-bottom: 10px;
+}
+
+/* Estilo para el texto descriptivo */
+.error p {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+/* Estilo para el ícono */
+.error svg {
+  color: red;
+  font-size: 300px;
+}

@@ -1,0 +1,47 @@
+/* .app-header {
+  background-color: #37c2a4;
+  padding: 20px;
+  color: white;
+  text-align: center;
+} */
+ .app-header {
+  /* ... (estilos existentes) ... */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex: 1 1 auto;
+  justify-content: center;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a { /* <Link> se renderiza como una <a>, así que podemos estilizarla */
+  color: rgb(23, 208, 233);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 0;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.2s;
+}
+
+nav a:hover {
+  border-bottom-color: #61dafb; /* Color azul de React */
+}
+
+svg{
+   font-size: 100px;
+}
