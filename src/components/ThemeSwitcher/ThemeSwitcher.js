@@ -9,7 +9,7 @@ const ThemeSwitcher = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
 
   return (
-    <button onClick={toggleTheme} className="theme-switcher">
+    <button type="button" onClick={toggleTheme} className="theme-switcher">
       {theme === 'light' ? <IconMoon /> : <IconSun />}
     </button>
   );
